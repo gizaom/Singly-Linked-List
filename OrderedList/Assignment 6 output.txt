@@ -1,0 +1,64 @@
+run:
+INSERT 5
+Current list : 5 
+
+INSERT 20
+Current list : 5 20 
+
+INSERT 12
+Current list : 5 12 20 
+
+INSERT 27
+Current list : 5 12 20 27 
+
+DELETE 12
+Current list : 5 20 27 
+
+INSERT 37
+Current list : 5 20 27 37 
+
+DELETE 99
+Could not delete 99
+Current list : 5 20 27 37 
+
+INSERT 73
+Current list : 5 20 27 37 73 
+
+DELETE 5
+Current list : 20 27 37 73 
+
+DELETE 73
+Current list : 20 27 37 
+
+INSERT 48
+Current list : 20 27 37 48 
+
+REVERSE
+Current list : 48 37 27 20 
+
+INSERT 99
+Current list : 99 48 37 27 20 
+
+INSERT 23
+Current list : 99 48 37 27 23 20 
+
+INSERT 11
+Current list : 99 48 37 27 23 20 11 
+
+DELETE 99
+Current list : 48 37 27 23 20 11 
+
+DELETE 11
+Current list : 48 37 27 23 20 
+
+REVERSE
+Current list : 20 23 27 37 48 
+
+CLEAR
+Current list : null
+REVERSE
+Current list : null
+DELETE 37
+Could not delete 37
+Current list : null
+BUILD SUCCESSFUL (total time: 0 seconds)
